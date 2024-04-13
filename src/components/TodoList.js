@@ -1,11 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Form from "./Form";
 import Items from "./Items";
 
 import classes from './styles/TodoList.module.css';
 
 function TodoList() {
-    const [items, setItems] = useState([]);
+    const [items, setItems] = useState(() => {
+        const savedItems = localStorage.getItem('todoListItems');
+        return savedItems ? JSON.parse(savedItems) : [];
+    });
+
+    useEffect(() => {
+        localStorage.setItem('todoListItems', JSON.stringify(items));
+    }, [items]);
 
     function addItemToList(newItem) {
         setItems([...items, newItem]);
