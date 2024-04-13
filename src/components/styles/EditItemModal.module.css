@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.63);
+  background: #ffffffa1;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -44,6 +44,6 @@
   border: 2px seagreen solid;
 }
 .edit-cancle-btn {
-  background: rgb(245, 59, 59);
-  border: 2px rgb(245, 59, 59) solid;
+  background: #f53b3b;
+  border: 2px #f53b3b solid;
 }

@@ -29,8 +29,8 @@
 }
 .items-delete-btn {
   color: white;
-  background: rgb(245, 59, 59);
-  border: 2px rgb(245, 59, 59) solid;
+  background: #f53b3b;
+  border: 2px #f53b3b solid;
 }
 .items-edit-btn {
   color: white;
