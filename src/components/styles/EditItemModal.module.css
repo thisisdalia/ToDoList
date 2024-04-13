@@ -1,0 +1,49 @@
+.edit-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.63);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-modal-card {
+  background: white;
+  height: 27vh;
+  width: 45vw;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.edit-modal-card input {
+  width: 30vw;
+  height: 2rem;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 2px 5px;
+  margin: 10px;
+}
+.edit-save-btn,
+.edit-cancle-btn {
+  width: 6vw;
+  height: 2rem;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.edit-save-btn {
+  background: seagreen;
+  border: 2px seagreen solid;
+}
+.edit-cancle-btn {
+  background: rgb(245, 59, 59);
+  border: 2px rgb(245, 59, 59) solid;
+}

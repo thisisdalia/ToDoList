@@ -1,0 +1,12 @@
+html {
+  background: rgb(30, 104, 146);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-list {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

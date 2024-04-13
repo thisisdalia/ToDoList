@@ -1,0 +1,39 @@
+.items-card {
+  margin: 20px 5px;
+}
+
+.items-card ul {
+  list-style: none;
+}
+.items-list {
+  background: skyblue;
+  width: 40vw;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 10px;
+  font-size: 1.3rem;
+}
+
+.items-edit-btn,
+.items-delete-btn {
+  cursor: pointer;
+  width: 5vw;
+  height: 1.5rem;
+  border-radius: 4px;
+  outline: none;
+  margin: 4px;
+}
+.items-delete-btn {
+  color: white;
+  background: rgb(245, 59, 59);
+  border: 2px rgb(245, 59, 59) solid;
+}
+.items-edit-btn {
+  color: white;
+  background: gray;
+  border: 2px gray solid;
+}
