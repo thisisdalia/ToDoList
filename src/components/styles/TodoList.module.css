@@ -4,6 +4,10 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+h1 {
+  color: white;
+}
 .todo-list {
   width: 90vw;
   display: flex;
